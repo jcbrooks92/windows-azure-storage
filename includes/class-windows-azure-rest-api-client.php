@@ -85,7 +85,7 @@ class Windows_Azure_Rest_Api_Client {
 	 *
 	 * @const string
 	 */
-	const API_BLOB_ENDPOINT = 'https://%s.blob.core.windows.net/';
+	const API_BLOB_ENDPOINT = 'https://%s.blob.core.usgovcloudapi.net/';
 
 	/**
 	 * Azure API version header name.
@@ -551,7 +551,7 @@ class Windows_Azure_Rest_Api_Client {
 	 */
 	public function set_connection_string() {
 		$this->_connection_string = sprintf(
-			'DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s',
+			'DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.usgovcloudapi.net',
 			$this->_account_name,
 			$this->_access_key
 		);
