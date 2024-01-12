@@ -490,9 +490,6 @@ class Windows_Azure_Rest_Api_Client {
 			'Range',
 		);
 		$this->set_connection_string();
-		return new WP_Error(
-				$this
-			);
 	}
 
 	/**
