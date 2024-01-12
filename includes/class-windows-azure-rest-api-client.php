@@ -550,11 +550,7 @@ class Windows_Azure_Rest_Api_Client {
 	 * @return void
 	 */
 	public function set_connection_string() {
-		$this->_connection_string = sprintf(
-			'DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.usgovcloudapi.net',
-			$this->_account_name,
-			$this->_access_key
-		);
+		$this->_connection_string = 'DefaultEndpointsProtocol=https;AccountName=jebrookdotnetisolinuxsto;AccountKey=rRlaA+znhIrXwGJaAvTkKAd+IqFkLHQ2YlkbAQgOQI+1U/qTqs3lr4gHMKNaBwAzAV85RQDjcQeN+AStUc+37w==;EndpointSuffix=core.usgovcloudapi.net'
 	}
 
 	/**
