@@ -59,7 +59,7 @@ class Windows_Azure_Helper {
 	 *
 	 * @const string
 	 */
-	const BLOB_BASE_DNS_NAME = 'blob.core.windows.net';
+	const BLOB_BASE_DNS_NAME = 'blob.core.usgovcloudapi.net';
 
 	/**
 	 * Developer storage account name.
